@@ -1,10 +1,11 @@
 import './App.css'
+import AppDetailsList from './components/AppDetailsList/AppDetailsList'
 
 function App() {
 
   return (
     <>
-        <h1 className="text-primary">Hello</h1>
+      <AppDetailsList />
     </>
   )
 }
